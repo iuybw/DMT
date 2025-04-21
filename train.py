@@ -158,12 +158,14 @@ def main():
         args.num_nodes = 307
         args.lamda = 0.1
         args.layers = 1
+        args.epochs = 300
 
     elif args.data == "PEMS07":
         args.data = "data/PEMS07"
         args.num_nodes = 883
         args.lamda = 0.1
         args.layers = 1
+        args.epochs = 300
 
     elif args.data == "METRLA":
         args.data = "data/METRLA"
